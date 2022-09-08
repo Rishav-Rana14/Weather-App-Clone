@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(32, 33, 35);
+}
+#root {
+  height: 100%;
+}
+h1 {
+  margin: 0;
+  color: white;
+}
+p {
+  margin: 0;
+}
+.App {
+  height: 100%;
+  width: 95%;
+  color: white;
+  font-size: 1.2em;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.pointer {
+  cursor: pointer;
+}
+.row {
+  margin: 1em 0;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.header-description {
+  color: rgb(156, 159, 164);
+  // width: 27em;
+  justify-content: space-between;
+  .current-temp {
+    font-size: 3em;
+    color: white;
+  }
+  .current-temp-unit {
+    margin-top: 10px;
+    color: white;
+  }
+  > div {
+    margin: 0 0.5em;
+  }
+}
+.data-select {
+  margin-top: 1em;
+  width: 18em;
+  color: rgb(156, 159, 164);
+  div {
+    cursor: pointer;
+    padding-bottom: 3px;
+  }
+}
+.data-select .selected {
+  border-bottom: 3px solid rgb(248, 217, 94);
+  color: white;
+}
+.header {
+  margin: 2em 4em;
+  flex-wrap: wrap;
+}
+.chart {
+  display: flex;
+  justify-content: center;
+}
+.forecast-chart {
+  height: 13em;
+  width: 90%;
+}
+.weather-box-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.weather-box-list > li {
+  list-style-type: none;
+  margin: 0 2em;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.weather-box > img {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-box > h1 {
+  font-size: 20px;
+}
+
+input {
+  width: 15em;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  min-width: 100px;
+  border: 0px;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  margin: 1em 1em;
+}
+.btn:focus,
+.btn.focus {
+  outline: 0;
+}
+
+.btn-round-1 {
+  border-radius: 8px;
+}
+.btn-primary {
+  background: #3498db;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background: #2980b9;
+  color: #ffffff;
+}
+.error{
+  color: red;
+}

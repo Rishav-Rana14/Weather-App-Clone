@@ -1,0 +1,19 @@
+.weather-box {
+  // width: 5em;
+  padding: 1em 1.5em;
+  border-radius: 20%;
+  margin: 1em 0;
+
+  .weather-box-temp {
+    // min-width: 3.5em;
+
+    .weather-box-temp-min {
+      color: rgb(156, 159, 164);
+    }
+  }
+}
+.selectedDay {
+  .weather-box {
+    background-color: rgb(48, 49, 52);
+  }
+}
