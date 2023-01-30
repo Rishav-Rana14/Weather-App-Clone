@@ -17,6 +17,7 @@ const App = () => {
     wind: 0,
     icon: "",
   });
+
   useEffect(() => {
     getWeather();
   }, []);
