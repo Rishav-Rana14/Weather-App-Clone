@@ -114,6 +114,8 @@ const App = () => {
       <div className="forecast-boxes row flex justify-center">
         <WeatherBoxes
           days={days}
+
+          
           daySelected={daySelected}
           boxClick={(index) => {
             setDaySelected(index);
